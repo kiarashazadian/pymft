@@ -23,7 +23,7 @@ if numbers[0] == numbers[1] or numbers[1] == numbers[2] or numbers[0] == numbers
 else:
     print("its not Isosceles")
 highest = int(max(numbers))
-numbers.remove(highest)
+#numbers.remove(highest)
 if numbers[0] ** 2 + numbers[1] ** 2 == highest ** 2:
     print("its right")
 else:
