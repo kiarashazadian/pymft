@@ -1,7 +1,4 @@
 def genprimes(limit):
-
-
-
     D = {}
     q = 2
 
@@ -14,6 +11,7 @@ def genprimes(limit):
                 D.setdefault(p + q, []).append(p)
             del D[q]
         q += 1
+
 
 p = genprimes(100)
 prms = [i for i in p]
